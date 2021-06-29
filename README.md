@@ -1,1 +1,4 @@
-# AlgorithmsInBioinformatics
+# Implementation of the Baum-Welch algorithm for the unsupervised optimization of HMM parameters
+Hidden Markov Models (HMMs) have been widely used in the context of bioinformatics for various sequence analysis applications. In this project we illustrate the ability of the Baum-Welch algorithm to estimate the parameters of a simple HMM (the unfair casino problem) in an unsupervised manner. Furthermore, the predictive ability of the estimated model parameters is evaluated by means of the Viterbi and posterior decoding algorithms, and an explanation is given as to why the first can make prediction mistakes and how the latter might give more insight into the credibility of the predictions. Lastly, we argue for the extension of the Baum-Welch algorithm into biological sequence analysis and present the challenges that arise from transitioning to more complex models, as well as its advantages versus other methods commonly used for biological sequence analysis.
+
+![final_hmm](https://user-images.githubusercontent.com/55362769/123814493-a3176400-d8ed-11eb-898e-462fe2013b42.jpg)
